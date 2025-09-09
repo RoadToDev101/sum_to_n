@@ -1,3 +1,15 @@
+// Interview Coding Challenge
+// Provide 3 unique implementations of sum_to_n(n: number): number
+// Input: n — any integer
+// Assumptions:
+// - The computed result always fits within Number.MAX_SAFE_INTEGER (no overflow)
+// - n may be negative, zero, or positive
+// Output:
+// - For n > 0: 1 + 2 + ... + n
+// - For n = 0: 0
+// - For n < 0: n + (n + 1) + ... + (-1)
+// Each implementation below includes its time/space complexity and efficiency notes.
+//
 // Implementation A: Mathematical Formula (Arithmetic Series)
 //
 // COMPLEXITY ANALYSIS:
